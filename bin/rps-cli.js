@@ -2,7 +2,6 @@
 import { rps } from "../lib/rpsls.js"
 import minimist from "minimist";
 
-
 const args = minimist(process.argv.slice(2));
 
 if (args.h || args.help) {
@@ -29,4 +28,4 @@ if (args.r || args.rules) {
     process.exit(0);
 }
 
-console.log("this works");
+rps(args._[0]);

@@ -35,3 +35,5 @@ if (args.r || args.rules) {
     - Rock CRUSHES Scissors`);
     process.exit(0);
 }
+
+rpsls(args._[0]);
