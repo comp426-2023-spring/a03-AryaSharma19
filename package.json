@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/comp426-2023-spring/a03-AryaSharma19.git"
@@ -14,7 +15,7 @@
   "license": "SEE LICENSE IN LICENSE",
   "bin": {
     "node-rps": "./bin/rps-cli.js",
-    "node-rpsls": "rpsls-cli.js"
+    "node-rpsls": "./bin/rpsls-cli.js"
   },
   "bugs": {
     "url": "https://github.com/comp426-2023-spring/a03-AryaSharma19/issues"
